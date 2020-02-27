@@ -1,25 +1,67 @@
-<DOCTYPE html>
-
-<title> fortnite </table>
+p {
+ margin-right: 400px;
+ margin-left: 400px;
+ font-size: 19pt;
+ border: solid #9E1111 7pt;
+ text-align: center;
+ background-color: red;
+ color: navy;
+ height: 190px;
+ padding-top: 25px;
+ border-radius: 50px;
+ font-family: 'Trade Winds', ;
  
- <html>
  
- <head>
  
- <style>
  
- </style>
+ }
  
- </head>
+ h1 {
+ text-align: center;
+ padding-top: 15px;
+ font-size: 70pt;
+ color: green;
  
- <body>
+ }
  
- <div>
  
- <h1> game modes </h1>
+ .tl {
+	border: 10px solid violet;
+ }
  
- </div>
+ .bl {
+	border: 10px solid orange;
+	margin-top: 150px;
+	height: 400px;
+ }
  
- </body>
+ .tr {
+ margin-left: 700px;
+ height: 300px;
+ border: 10px solid green;
+ margin-top: 100px;
  
- </html>
+ }
+ 
+ .br {
+ margin-left: 700px;
+ margin-top: 150px;
+ border: 10px solid #681899;
+ 
+ }
+ 
+ 
+ 
+ div {
+ position: center;
+ margin-bottom: 500px;
+ 
+ }
+ 
+ body {
+  background-image: url('cloakback.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+ }
+ 
