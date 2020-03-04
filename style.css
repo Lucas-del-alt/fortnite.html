@@ -11,9 +11,6 @@ p {
  border-radius: 50px;
  font-family: 'Trade Winds', ;
  
- 
- 
- 
  }
  
  h1 {
@@ -24,7 +21,56 @@ p {
  
  }
  
- 
+table, th, td {
+	border: 3px solid black;
+	border-bottom: 1px solid #DDDDDD;
+}
+		
+table {
+	margin-left: 75px;
+}
+		
+th, td {
+	text-align: center;
+	padding: 100px;
+	color: purple;
+	
+	
+		
+}
+		
+th {
+	color: blue;
+	background-color: green;
+	padding: 0px;
+	font-size: 30pt;
+		
+}
+
+td {
+    color: gold;
+	background-color: navy;
+	font-size: 40pt;
+	height: 400px;
+	position: center;
+}
+.left{
+	background-image: url('save.jpg');	
+}
+
+.right {
+    background-image: url('fortback.jpg');
+	background-size: cover;
+}	
+tr:hover {
+	background-color: #DDDDDD;
+	}
+		
+td:hover {
+		background-color: red;
+}
+
+
  .tl {
 	border: 10px solid violet;
  }
@@ -64,4 +110,11 @@ p {
   background-attachment: fixed;
   background-size: cover;
  }
+ 
+ div.bottom {
+  margin-left: 75px;
+  width: 800px;
+  height: 700px;
+ }
+ 
  
