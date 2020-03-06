@@ -24,6 +24,8 @@ p {
 table, th, td {
 	border: 3px solid black;
 	border-bottom: 1px solid #DDDDDD;
+	border-bottom-color: black;
+	
 }
 		
 table {
@@ -33,7 +35,7 @@ table {
 th, td {
 	text-align: center;
 	padding: 100px;
-	color: purple;
+	color: gold;
 	
 	
 		
@@ -116,5 +118,11 @@ td:hover {
   width: 800px;
   height: 700px;
  }
+ 
+ li {
+font-size: 30pt;
+text-align: center;	 
+ }
+ 
  
  
